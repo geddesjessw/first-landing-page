@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo-container h1{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #f9faf8;
+    font-family: helvetica, sans-serif;
+    font-size: 24px;
+    
+    
+}
+
+.inner-header {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 32px;
+  
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+ul {
+    gap: 16px;
+    font-family: helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 350;
+
+}
+
+a {
+    color: #e5e7eb;
+}
+
+.logo-container h1 span{
+    font-size: 24px;
+    font-family: helvetica, sans-serif;
+}
+
+.section1 {
+    display: flex;
+    height: 435px;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 225px;
+    background-color: lightgrey;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    width: 350px;
+    margin-right: 16px;
+    font-family: Helvetica, sans-serif;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 450px;
+    margin-right: 16px;
+    font-family: helvetica;
+}
+
+.inner-heading {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+button {
+    margin-top: 16px;
+    border-radius: 8px;
+    height: 40px;
+    width: 125px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border:#1F2937 solid;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+button:hover {
+    border: white solid;
+}
+
+section {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section h2 {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+    color: #1F2937;
+    font-weight: 700;
+    font-family: helvetica,sans-serif;
+}
+
+.empty-box {
+    height:150px;
+    width:150px;
+    border:#3882f6 solid;
+    border-radius: 20px;
+    border-width: 4px;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.container2 {
+    width: 60%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.img-desc {
+    height:150px;
+    width:175px;
+    margin-top: 24px;
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+    font-family: helvetica, sans-serif;
+}
+
+.section3 {
+    height: 425px;
+    width: 100%;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-section3 {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.large-quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    font-family: helvetica, sans-serif;
+    color:#1F2937;
+}
+
+.signature {
+    display: flex;
+    justify-content: flex-end;
+    width: 55%;
+    font-size: 22px;
+    font-family: helvetica, sans-serif;
+    color:#1F2937;
+    font-weight: 700;
+}
+
+.section4 {
+    width: 100%;
+    height: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-section4 {
+    width: 70%;
+    height: 150px;
+    background-color:#3882f6;
+    color:#e5e7eb;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: helvetica, sans-serif;
+}
+
+.action {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color:#1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#e5e7eb;
+    font-size:18px;
+    
+}
